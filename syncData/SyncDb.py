@@ -1,6 +1,7 @@
 import hashlib
 from datetime import datetime
 import json
+import django
 
 
 def nextIteration():
