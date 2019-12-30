@@ -9,6 +9,9 @@ class Team(models.Model):
     short_name = models.CharField(max_length=80)
     image = models.FileField(upload_to='team')
 
+    def __str__(self):
+        return self.name
+
 
 class Stadium(models.Model):
     slug = models.SlugField(max_length=200)
@@ -17,14 +20,23 @@ class Stadium(models.Model):
     latitude = models.FloatField()
     longitude = models.FloatField()
 
+    def __str__(self):
+        return self.name
+
 
 class Championship(models.Model):
     slug = models.SlugField(max_length=200)
     name = models.CharField(max_length=100)
 
+    def __str__(self):
+        return self.name
+
 
 class Referee(models.Model):
     name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
 
 
 class Match(models.Model):
@@ -32,9 +44,12 @@ class Match(models.Model):
     championship = models.ForeignKey(Championship, on_delete=models.SET_NULL, null=True)
     referee = models.ForeignKey(Referee, on_delete=models.SET_NULL, null=True)
     match_date = models.DateTimeField()
-    duration = models.TimeField()
+    duration = models.FloatField()
     period = models.CharField(max_length=50)
     stadium = models.ForeignKey(Stadium, on_delete=models.SET_NULL, null=True)
+
+    def __str__(self):
+        return self.slug
 
 
 class MatchData(models.Model):
@@ -42,11 +57,17 @@ class MatchData(models.Model):
     status = models.CharField(max_length=50, null=True)
     match = models.ForeignKey(Match, on_delete=models.CASCADE, null=True)
 
+    def __str__(self):
+        return self.match.slug + ' - Data'
+
 
 class State(models.Model):
     name = models.CharField(max_length=50)
     type = models.CharField(max_length=50)
     match = models.ForeignKey(Match, on_delete=models.CASCADE, null=True)
+
+    def __str__(self):
+        return self.match.slug + ' - State'
 
 
 class Action(models.Model):
@@ -54,6 +75,9 @@ class Action(models.Model):
     type = models.CharField(max_length=100)
     icon = models.FileField(upload_to='action')
     url = models.URLField()
+
+    def __str__(self):
+        return self.match.slug + ' - Action ' + str(self.pk)
 
 
 class Score(models.Model):
@@ -63,5 +87,8 @@ class Score(models.Model):
     local_penalty = models.IntegerField()
     away_goals = models.IntegerField()
     away_penalty = models.IntegerField()
-    scorer = models.CharField(max_length=50)
+    score_s = models.CharField(max_length=50)
     match = models.ForeignKey(Match, on_delete=models.CASCADE, null=True)
+
+    def __str__(self):
+        return self.match.slug + ' - Score'

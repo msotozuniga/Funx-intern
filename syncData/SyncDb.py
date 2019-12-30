@@ -1,7 +1,5 @@
 import hashlib
 from datetime import datetime
-import json
-import django
 
 
 def nextIteration():
@@ -16,7 +14,10 @@ def confirmDifferences(new_dict, old_dict):
     return new != old
 
 
-def updateDatabase(new_data):
-    dict=json.loads(new_data)
+def datetimeParser(date_string):
+    return datetime.strptime(date_string, '%Y-%m-%dT%H:%M:%SZ')
 
-    pass
+
+def entries_to_remove(entries, the_dict):
+    for key in entries:
+        the_dict.pop(key, None)

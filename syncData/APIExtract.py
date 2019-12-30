@@ -3,8 +3,8 @@ import requests, json
 
 class APIExtract:
 
-    def __init__(self, url='http://futbol.funx.io/api/v2/sporting-cristal/home/match/'):
-        self.url = url
+    def __init__(self, api='http://futbol.funx.io/api/v2/sporting-cristal/home/match/'):
+        self.url = api
 
     def connect(self):
         response = requests.get(self.url)
