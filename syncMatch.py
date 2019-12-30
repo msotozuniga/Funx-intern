@@ -144,7 +144,8 @@ def updateDatabase(response):
                                                                    defaults={'status': list[i][key]})
                     if not fabricate:
                         d.status = list[i][key]
-
+    dbLenght=len(Match.objects.all())
+    Match.objects.filter(pk__in=list(range(len(list),dbLenght))).delete()
     return
 
 
