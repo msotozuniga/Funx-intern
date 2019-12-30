@@ -1,0 +1,311 @@
+[
+    {
+        "slug": "peru-liga-1-apertura-2019-melgar-vs-sporting-cristal-201911102000",
+        "championship": {
+            "slug": "peru-liga-1-apertura-2019",
+            "name": "Torneo Descentralizado"
+        },
+        "local": {
+            "slug": "melgar",
+            "name": "Melgar",
+            "short_name": "Melgar",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/MELGAR2-2018-06-13.png"
+        },
+        "away": {
+            "slug": "sporting-cristal",
+            "name": "Sporting Cristal",
+            "short_name": "Cristal",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/Artboard-2018-09-25.png"
+        },
+        "local_goals": 2,
+        "local_penalty_goals": 0,
+        "away_goals": 3,
+        "away_penalty_goals": 0,
+        "scorer": "2 - 3",
+        "stadium": {
+            "slug": "estadio-monumental-de-la-unsa",
+            "name": "Estadio Monumental de la UNSA",
+            "city": "Arequipa",
+            "latitude": -35.760739,
+            "longitude": -177.806519
+        },
+        "referee": {
+            "name": "Joel Alonso Alarcón"
+        },
+        "ticketing": false,
+        "datetime": "2019-11-09T20:30:00Z",
+        "timestamp": 1573331400,
+        "actions": [
+            {
+                "type": "calendar",
+                "icon": "",
+                "url": "https://www.google.cl"
+            },
+            {
+                "type": "url",
+                "icon": "",
+                "url": "https://www.google.cl"
+            }
+        ],
+        "meta": {
+            "own_side": "visit",
+            "is_own_match": "1"
+        },
+        "period": "Fecha 15",
+        "state": {
+            "name": "Final",
+            "type": "fulltime"
+        },
+        "selected": false,
+        "on_live": false,
+        "is_confirmed": true
+    },
+    {
+        "slug": "peru-liga-1-apertura-2019-sporting-cristal-vs-alianza-universidad-201911102000",
+        "championship": {
+            "slug": "peru-liga-1-apertura-2019",
+            "name": "Torneo Descentralizado"
+        },
+        "local": {
+            "slug": "sporting-cristal",
+            "name": "Sporting Cristal",
+            "short_name": "Cristal",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/Artboard-2018-09-25.png"
+        },
+        "away": {
+            "slug": "alianza-universidad",
+            "name": "Alianza Universidad",
+            "short_name": "Alianza Universidad",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/alianzauniversidad-2019-04-08.png"
+        },
+        "local_goals": 2,
+        "local_penalty_goals": 0,
+        "away_goals": 1,
+        "away_penalty_goals": 0,
+        "scorer": "2 - 1",
+        "stadium": {
+            "slug": "estadio-alberto-gallardo",
+            "name": "Estadio Alberto Gallardo",
+            "city": "San Martin de Porres",
+            "latitude": -35.760739,
+            "longitude": -177.806519
+        },
+        "referee": {
+            "name": "Alejandro Villanueva"
+        },
+        "ticketing": false,
+        "datetime": "2019-11-17T16:00:00Z",
+        "timestamp": 1574006400,
+        "actions": [
+            {
+                "type": "calendar",
+                "icon": "",
+                "url": "https://www.google.cl"
+            },
+            {
+                "type": "url",
+                "icon": "",
+                "url": "https://www.google.cl"
+            }
+        ],
+        "meta": {
+            "is_own_match": "1",
+            "own_side": "local",
+            "has_detail": "1"
+        },
+        "period": "Fecha 16",
+        "state": {
+            "name": "Final",
+            "type": "fulltime"
+        },
+        "selected": false,
+        "on_live": false,
+        "is_confirmed": true
+    },
+    {
+        "slug": "peru-liga-1-apertura-2019-deportivo-binacional-vs-sporting-cristal-201911242000",
+        "championship": {
+            "slug": "peru-liga-1-apertura-2019",
+            "name": "Torneo Descentralizado"
+        },
+        "local": {
+            "slug": "deportivo-binacional",
+            "name": "Deportivo Binacional",
+            "short_name": "Binacional",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/BINACIONAL2-2018-06-13.png"
+        },
+        "away": {
+            "slug": "sporting-cristal",
+            "name": "Sporting Cristal",
+            "short_name": "Cristal",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/Artboard-2018-09-25.png"
+        },
+        "local_goals": 4,
+        "local_penalty_goals": 0,
+        "away_goals": 1,
+        "away_penalty_goals": 0,
+        "scorer": "4 - 1",
+        "stadium": {
+            "slug": "estadio-guillermo-briceno",
+            "name": "Estadio Guillermo Briceño",
+            "city": "Juliaca",
+            "latitude": -35.760739,
+            "longitude": -177.806519
+        },
+        "referee": {
+            "name": "Michael Davis Espinoza"
+        },
+        "ticketing": false,
+        "datetime": "2019-11-24T20:00:00Z",
+        "timestamp": 1574625600,
+        "actions": [
+            {
+                "type": "calendar",
+                "icon": "",
+                "url": "https://www.google.cl"
+            },
+            {
+                "type": "url",
+                "icon": "",
+                "url": "https://www.google.cl"
+            }
+        ],
+        "meta": {
+            "is_own_match": "1",
+            "own_side": "visit",
+            "has_detail": "1"
+        },
+        "period": "Fecha 17",
+        "state": {
+            "name": "Final",
+            "type": "fulltime"
+        },
+        "selected": false,
+        "on_live": false,
+        "is_confirmed": true
+    },
+    {
+        "slug": "peru-liga-1-apertura-2019-alianza-lima-vs-sporting-cristal-201912012000",
+        "championship": {
+            "slug": "peru-liga-1-apertura-2019",
+            "name": "Torneo Descentralizado"
+        },
+        "local": {
+            "slug": "alianza-lima",
+            "name": "Alianza Lima",
+            "short_name": "Alianza",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/Alianza-2018-06-13.png"
+        },
+        "away": {
+            "slug": "sporting-cristal",
+            "name": "Sporting Cristal",
+            "short_name": "Cristal",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/Artboard-2018-09-25.png"
+        },
+        "local_goals": 1,
+        "local_penalty_goals": 0,
+        "away_goals": 0,
+        "away_penalty_goals": 0,
+        "scorer": "1 - 0",
+        "stadium": {
+            "slug": "estadio-alejandro-villanueva",
+            "name": "Estadio Alejandro Villanueva",
+            "city": "Lima",
+            "latitude": -35.760739,
+            "longitude": -177.806519
+        },
+        "referee": {
+            "name": "Diego Mirko Haro"
+        },
+        "ticketing": false,
+        "datetime": "2019-12-01T20:30:00Z",
+        "timestamp": 1575232200,
+        "actions": [
+            {
+                "type": "calendar",
+                "icon": "",
+                "url": "https://www.google.cl"
+            },
+            {
+                "type": "url",
+                "icon": "",
+                "url": "https://www.google.cl"
+            }
+        ],
+        "meta": {
+            "is_own_match": "1",
+            "own_side": "visit",
+            "has_detail": "1"
+        },
+        "period": "Fecha 18",
+        "state": {
+            "name": "Final",
+            "type": "fulltime"
+        },
+        "selected": false,
+        "on_live": false,
+        "is_confirmed": true
+    },
+    {
+        "slug": "peru-liga-1-apertura-2019-sporting-cristal-vs-alianza-atletico-201912042000",
+        "championship": {
+            "slug": "peru-liga-1-apertura-2019",
+            "name": "Torneo Descentralizado"
+        },
+        "local": {
+            "slug": "sporting-cristal",
+            "name": "Sporting Cristal",
+            "short_name": "Cristal",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/Artboard-2018-09-25.png"
+        },
+        "away": {
+            "slug": "alianza-lima",
+            "name": "Alianza Lima",
+            "short_name": "Alianza",
+            "image": "https://s3.amazonaws.com/funx-futbol/dashboard/Alianza-2018-06-13.png"
+        },
+        "local_goals": 1,
+        "local_penalty_goals": 0,
+        "away_goals": 1,
+        "away_penalty_goals": 0,
+        "scorer": "1 - 1",
+        "stadium": {
+            "slug": "estadio-nacional-de-lima",
+            "name": "Estadio Nacional de Lima",
+            "city": "Lima",
+            "latitude": -35.760739,
+            "longitude": -177.806519
+        },
+        "referee": {
+            "name": "Miguel Angel Santiváñez"
+        },
+        "ticketing": false,
+        "datetime": "2019-12-05T01:00:00Z",
+        "timestamp": 1575507600,
+        "actions": [
+            {
+                "type": "calendar",
+                "icon": "",
+                "url": "https://www.google.cl"
+            },
+            {
+                "type": "url",
+                "icon": "",
+                "url": "https://www.google.cl"
+            }
+        ],
+        "meta": {
+            "is_own_match": "1",
+            "own_side": "local",
+            "has_detail": "1"
+        },
+        "period": "Fecha 19",
+        "state": {
+            "name": "Final",
+            "type": "fulltime"
+        },
+        "selected": true,
+        "on_live": false,
+        "is_confirmed": true
+    }
+]

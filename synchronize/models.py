@@ -88,7 +88,7 @@ class Score(models.Model):
     away_goals = models.IntegerField()
     away_penalty = models.IntegerField()
     score_s = models.CharField(max_length=50)
-    match = models.ForeignKey(Match, on_delete=models.CASCADE, null=True)
+    match = models.OneToOneField(Match, on_delete=models.CASCADE, null=True)
 
     def __str__(self):
         return self.match.slug + ' - Score'
